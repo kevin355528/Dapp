@@ -1,0 +1,14 @@
+import { HardhatUserConfig } from "hardhat/config";
+import "@nomicfoundation/hardhat-toolbox";
+
+const config: HardhatUserConfig = {
+  solidity: "0.8.0",
+  networks:{
+    localhost: {
+      url:"http://127.0.0.1:8001/",
+      chainId:123456
+    }
+  }
+};
+
+export default config;

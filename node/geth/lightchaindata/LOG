@@ -1,0 +1,60 @@
+=============== Sep 5, 2023 (CST) ===============
+00:58:20.009097 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:58:20.025964 db@open opening
+00:58:20.026934 version@stat F·[] S·0B[] Sc·[]
+00:58:20.037274 db@janitor F·2 G·0
+00:58:20.037274 db@open done T·11.31ms
+00:58:20.048615 db@close closing
+00:58:20.049125 db@close done T·509.4µs
+=============== Sep 5, 2023 (CST) ===============
+01:00:25.176639 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:00:25.177167 version@stat F·[] S·0B[] Sc·[]
+01:00:25.177167 db@open opening
+01:00:25.177167 journal@recovery F·1
+01:00:25.177699 journal@recovery recovering @1
+01:00:25.193386 memdb@flush created L0@2 N·623 S·51KiB "\x02d\xfc..\x19Ba,v431":"\xfe\x88\xcf..H\xef\xcc,v364"
+01:00:25.195338 version@stat F·[1] S·51KiB[51KiB] Sc·[0.25]
+01:00:25.223996 db@janitor F·3 G·0
+01:00:25.223996 db@open done T·46.8296ms
+01:00:25.234148 db@close closing
+01:00:25.234148 db@close done T·0s
+=============== Sep 5, 2023 (CST) ===============
+01:01:29.400799 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:01:29.401322 version@stat F·[1] S·51KiB[51KiB] Sc·[0.25]
+01:01:29.401322 db@open opening
+01:01:29.401841 journal@recovery F·1
+01:01:29.401841 journal@recovery recovering @3
+01:01:29.411683 memdb@flush created L0@5 N·1 S·400B "eth..U.\xa4,v625":"eth..U.\xa4,v625"
+01:01:29.413947 version@stat F·[2] S·51KiB[51KiB] Sc·[0.50]
+01:01:29.443657 db@janitor F·4 G·0
+01:01:29.443657 db@open done T·42.3358ms
+01:01:29.454556 db@close closing
+01:01:29.454636 db@close done T·79.9µs
+=============== Sep 5, 2023 (CST) ===============
+01:03:12.834003 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:03:12.834514 version@stat F·[2] S·51KiB[51KiB] Sc·[0.50]
+01:03:12.834514 db@open opening
+01:03:12.834514 journal@recovery F·1
+01:03:12.836342 journal@recovery recovering @6
+01:03:12.841210 memdb@flush created L0@8 N·1 S·400B "eth..U.\xa4,v627":"eth..U.\xa4,v627"
+01:03:12.843163 version@stat F·[3] S·51KiB[51KiB] Sc·[0.75]
+01:03:12.862539 db@janitor F·5 G·0
+01:03:12.862539 db@open done T·28.0247ms
+01:03:12.871325 db@close closing
+01:03:12.871325 db@close done T·0s
+=============== Sep 5, 2023 (CST) ===============
+01:04:54.000415 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:04:54.000936 version@stat F·[3] S·51KiB[51KiB] Sc·[0.75]
+01:04:54.000936 db@open opening
+01:04:54.000936 journal@recovery F·1
+01:04:54.003025 journal@recovery recovering @9
+01:04:54.009890 memdb@flush created L0@11 N·1 S·400B "eth..U.\xa4,v629":"eth..U.\xa4,v629"
+01:04:54.011544 version@stat F·[4] S·52KiB[52KiB] Sc·[1.00]
+01:04:54.030673 db@janitor F·6 G·0
+01:04:54.030673 db@open done T·29.7368ms
+01:04:54.031640 table@compaction L0·4 -> L1·0 S·52KiB Q·630
+01:04:54.042792 db@close closing
+01:04:54.049251 table@build created L1@14 N·623 S·51KiB "\x02d\xfc..\x19Ba,v431":"\xfe\x88\xcf..H\xef\xcc,v364"
+01:04:54.049251 table@build exiting
+01:04:54.049251 table@build revert @14
+01:04:54.050732 db@close done T·7.9397ms
